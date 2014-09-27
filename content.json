@@ -30,13 +30,13 @@
             ],
             "logo": {
                 "logocustomisatie_op_proxy_gewenst": {
-                    "selectedChoice": "Ja"
+                    "selectedChoice": "Neen"
                 }
             }
         },
         "viaa": {
             "contactpersoon_service_agreement": {
-                "naam": "as"
+                "naam": ""
             }
         }
     },
@@ -96,8 +96,7 @@
                 "moeten_deze_ook_beschikbaar_zijn_binnen_viaas_mam_met_betrekking_op_annotatie_in_het_mam": {}
             }
         },
-        "titel_collectie": "s",
-        "beschrijving_collectie": "s"
+        "beschrijving_collectie": ""
     },
     "deel_ii__ingest__archiveringsproces": {
         "goedkeuring_essence_file_digitalisering": {},
