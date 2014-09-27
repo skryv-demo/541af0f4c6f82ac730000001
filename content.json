@@ -3,22 +3,47 @@
         "content_provider": {
             "algemene_contactgegevens_organisatie": {
                 "adres": {},
-                "naam_instelling": "ABC"
+                "naam_instelling": "ABCD"
             },
             "contactpersoon_service_agreement": {},
             "contactpersoon_administrator_viaa_mam": {},
-            "contactpersoon_metadata": {},
-            "bijkomende_contactpersonen": [],
+            "contactpersoon_metadata": {
+                "naam": "M",
+                "gsmnummer": 2,
+                "email": "maarten.landuyt@s.com"
+            },
+            "bijkomende_contactpersonen": [
+                {
+                    "contactpersoon": {
+                        "type": {
+                            "selectedChoices": {
+                                "Gebruiker VIAA MAM": true,
+                                "Ingest / Export": true,
+                                "IT": true
+                            }
+                        },
+                        "naam": "asdf",
+                        "gsmnummer": 123,
+                        "email": "asasas@as.com"
+                    }
+                }
+            ],
             "logo": {
-                "logocustomisatie_op_proxy_gewenst": {}
+                "logocustomisatie_op_proxy_gewenst": {
+                    "selectedChoice": "Ja"
+                }
             }
         },
         "viaa": {
-            "contactpersoon_service_agreement": {}
+            "contactpersoon_service_agreement": {
+                "naam": "as"
+            }
         }
     },
     "deel_i__collectiebeschrijving": {
-        "technische_aard_van_de_collectie": {},
+        "technische_aard_van_de_collectie": {
+            "selectedChoice": "Born digital materiaal"
+        },
         "kwantificatie": {
             "kwantificatie_per_type": []
         },
@@ -32,7 +57,8 @@
                     "op_dragerniveau": {},
                     "op_itemniveau": {},
                     "metadata_model": {},
-                    "metadata_formaat": {}
+                    "metadata_formaat": {},
+                    "selectedChoice": "Ja"
                 },
                 "heeft_de_cp_technische_metadata": {
                     "op_collectieniveau": {},
@@ -69,7 +95,9 @@
             "zijn_er_authorities_of_controlled_vocabularies_gebruikt_om_de_assets_te_annoteren": {
                 "moeten_deze_ook_beschikbaar_zijn_binnen_viaas_mam_met_betrekking_op_annotatie_in_het_mam": {}
             }
-        }
+        },
+        "titel_collectie": "s",
+        "beschrijving_collectie": "s"
     },
     "deel_ii__ingest__archiveringsproces": {
         "goedkeuring_essence_file_digitalisering": {},
