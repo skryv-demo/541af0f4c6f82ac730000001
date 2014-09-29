@@ -12,22 +12,7 @@
                 "gsmnummer": 2,
                 "email": "maarten.landuyt@s.com"
             },
-            "bijkomende_contactpersonen": [
-                {
-                    "contactpersoon": {
-                        "type": {
-                            "selectedChoices": {
-                                "Gebruiker VIAA MAM": true,
-                                "Ingest / Export": true,
-                                "IT": true
-                            }
-                        },
-                        "naam": "asdf",
-                        "gsmnummer": 123,
-                        "email": "asasas@as.com"
-                    }
-                }
-            ],
+            "bijkomende_contactpersonen": [],
             "logo": {
                 "logocustomisatie_op_proxy_gewenst": {
                     "selectedChoice": "Neen"
@@ -58,7 +43,7 @@
                     "op_itemniveau": {},
                     "metadata_model": {},
                     "metadata_formaat": {},
-                    "selectedChoice": "Ja"
+                    "selectedChoice": "Neen"
                 },
                 "heeft_de_cp_technische_metadata": {
                     "op_collectieniveau": {},
